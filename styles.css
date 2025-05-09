@@ -1,0 +1,80 @@
+/* styles.css */
+@font-face {
+    font-family: "CustomFont";
+    src: url("fonts/PixelatedEleganceRegular-ovyAA.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "CustomFont";
+    background-color: #f8ccda;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#flower {
+    font-size: 100px;
+    cursor: pointer;
+    transition: transform 2s;
+}
+
+.childButton {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#xuanButton {
+    width: 150px;
+    top: 150px;
+    left: 100px;
+}
+
+#otherButton {
+    font-family: "CustomFont";
+    background-color: #add8e6;
+    width: 150px;
+    height: 79px;
+    top: 400px;
+    left: 300px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+    gap: 150px;               
+    margin-top: 50px;
+}
+
+.animated-png {
+    width: 500px; 
+    height: auto;
+}
+
+.character {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#homeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d1a3a3;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "CustomFont", Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+#homeButton:hover {
+    background-color: #c78b8b;
+}
+
+h1 {
+    font-size: 40px;  
+}
