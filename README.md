@@ -14,6 +14,18 @@ This interactive app is designed to humorously confirm that I am my mother's fav
    npm install electron-builder --save-dev
    ```
 
+## How to Use the App:
+1. Run the App Locally:
+   ```bash
+   npm start
+   ```
+   This will open the app without building an executable.
+2. Build the App for Distribution:
+ ```bash
+   npm run dist
+   ```
+This will generate a production-ready executable in the dist folder.
+
 ## How the app works:
 - The app opens with a mandatory flower for Mother's Day.
 - When clicked, it brings the user to a second page where they must make a "choice."
