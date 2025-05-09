@@ -1,8 +1,7 @@
 # mothers-day-deskapp
 
-A simple and cheeky desktop application for my mother
-
-This is an interactive desktop application created for my mother for Mother's Day. It was made using Electron.js.
+A simple and cheeky desktop application created for Mother's Day.
+This interactive app is designed to humorously confirm that I am my mother's favorite daughter — all in good fun!
 
 ## Required Installations:
 1. **Node.js** - Download from [nodejs.org](https://nodejs.org)
@@ -15,9 +14,10 @@ This is an interactive desktop application created for my mother for Mother's Da
    npm install electron-builder --save-dev
    ```
 
-## How to Use:
-The app presents a (mandatory) flower for Mother's Day and, upon clicking it, brings the user to a second page. 
-The purpose of the app is to confirm that I am my mother's favourite daughter when she makes her "choice" on the second page.
+## How the app works:
+- The app opens with a mandatory flower for Mother's Day.
+- When clicked, it brings the user to a second page where they must make a "choice."
+- The objective? Confirm that I am her favorite child
 
 ## References:
 - All animations were created by me on Procreate.
